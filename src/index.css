@@ -5,3 +5,10 @@
 .active hr {
   @apply block;
 }
+::-webkit-scrollbar {
+  @apply hidden;
+}
+
+* {
+  scrollbar-width: none; /* Firefox */
+}

@@ -9,6 +9,7 @@ import MyProfile from "./Pages/MyProfile.jsx";
 import MyAppointments from "./Pages/MyAppointments.jsx";
 import Appointment from "./Pages/Appointment.jsx";
 import Navbar from "./Components/Navbar.jsx";
+import "./App.css"
 
 const App = () => {
   return (

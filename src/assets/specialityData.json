@@ -1,0 +1,27 @@
+[
+    {
+      "name": "General physician",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
+    },
+    {
+      "name": "Gynecologist",
+      "imageUrl": "https://static.vecteezy.com/system/resources/previews/017/317/398/original/gynecology-icon-in-modern-style-editable-vector.jpg"
+    },
+    {
+      "name": "Dermatologist",
+      "imageUrl": "https://media.istockphoto.com/id/1359969290/vector/dermatology-examination-of-woman-skin-line-icon-checkup-of-girl-skin-face-with-magnifier.jpg?s=612x612&w=0&k=20&c=mcRQQB-1-_K_SLRfrj5mTtyoTiwU609hHTHMZp7XEmc="
+    },
+    {
+      "name": "Pediatricians",
+      "imageUrl": "https://t3.ftcdn.net/jpg/03/33/82/84/360_F_333828460_pZlZ2q9K0YOtBlMj4eWj5zyZ96YxVhHB.jpg"
+    },
+    {
+      "name": "Neurologist",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/3974/3974827.png"
+    },
+    {
+      "name": "Gastroenterologist",
+      "imageUrl": "https://media.istockphoto.com/id/1263030841/vector/human-stomach-vector-icon.jpg?s=612x612&w=0&k=20&c=js9odS8v-2CT8Q7sLWcvEt40-2YpMp5O9Wb1CKAt-QE="
+    }
+  ]
+  
