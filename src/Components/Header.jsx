@@ -3,13 +3,12 @@ import React from "react";
 const Header = () => {
   return (
     <div
-      className="bg-primary text-white flex flex-col md:flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-20"
+      className="bg-primary text-white flex flex-col md:flex-row flex-wrap rounded-lg px-10 md:px-10 lg:px-20"
       style={{
         borderBottomLeftRadius: "50% 20%",
         borderBottomRightRadius: "50% 20%",
         borderTopRightRadius: "50px",
         borderTopLeftRadius: "50px",
-        padding: "15px",
       }}
     >
       {/* Left Side */}

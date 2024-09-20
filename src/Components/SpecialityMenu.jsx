@@ -12,8 +12,7 @@ const SpecialityMenu = () => {
         <h1 className="text-3xl font-medium">Speciality</h1>
         <p className="sm:w-1/3 text-center text-sm">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
-          quia nisi dolores ducimus enim excepturi delectus blanditiis velit
-          pariatur, dolore fugiat placeat voluptatem.
+          quia nisi dolores
         </p>
         <div className="flex sm:justify-center gap-4 pt-5 w-full overflow-scroll">
           {specialityData.map((speciality, index) => (

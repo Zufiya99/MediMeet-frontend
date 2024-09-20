@@ -9,13 +9,14 @@ import MyProfile from "./Pages/MyProfile.jsx";
 import MyAppointments from "./Pages/MyAppointments.jsx";
 import Appointment from "./Pages/Appointment.jsx";
 import Navbar from "./Components/Navbar.jsx";
-import "./App.css"
+import "./App.css";
+import Footer from "./Components/Footer.jsx";
 
 const App = () => {
   return (
     <>
       <div className="mx-4 sm:mx-[10%]">
-        <Navbar/>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/doctors" element={<Doctors />} />
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/my-appointments" element={<MyAppointments />} />
           <Route path="/appointment/:docId" element={<Appointment />} />
         </Routes>
+        <Footer />
       </div>
     </>
   );

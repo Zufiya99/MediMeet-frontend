@@ -13,6 +13,7 @@ const Navbar = () => {
           className="w-10 cursor-pointer"
           src="./src/assets/MediMeet_logo.png"
           alt="MediMeet logo"
+          onClick={() => navigate("/")}
         />
         <ul className="hidden md:flex items-start gap-5 font-medium">
           <NavLink to="/">

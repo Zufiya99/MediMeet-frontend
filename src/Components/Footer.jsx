@@ -1,0 +1,106 @@
+import React from "react";
+import {
+  FaPhoneAlt,
+  FaEnvelope,
+  FaGithub,
+  FaTwitter,
+  FaGlobe,
+} from "react-icons/fa";
+
+const Footer = () => {
+  return (
+    <footer className=" w-full py-10 px-5 md:px-20 lg:px-40">
+      <div className="flex flex-col md:flex-row justify-between">
+        {/* Left Section */}
+        <div className="mb-8 md:mb-0">
+          <img
+            src="./src/assets/MediMeet_logo.png"
+            alt="MediMeet Logo"
+            className="w-16 mb-4"
+          />
+          <p className="text-sm leading-relaxed max-w-xs">
+            Your trusted partner for healthcare solutions. We connect you to the
+            best services quickly and securely.
+          </p>
+        </div>
+
+        {/* Center Section */}
+        <div className="mb-8 md:mb-0">
+          <p className="text-xl font-semibold mb-4">Company</p>
+          <ul className="space-y-2">
+            <li className="hover:text-gray-600 cursor-pointer transition duration-300">
+              Home
+            </li>
+            <li className="hover:text-gray-600 cursor-pointer transition duration-300">
+              About Us
+            </li>
+            <li className="hover:text-gray-600 cursor-pointer transition duration-300">
+              Contact Us
+            </li>
+            <li className="hover:text-gray-600 cursor-pointer transition duration-300">
+              Privacy Policy
+            </li>
+          </ul>
+        </div>
+
+        {/* Right Section */}
+        <div className="">
+          <p className="text-xl font-semibold mb-4">Get in Touch</p>
+          <ul className="space-y-2">
+            <li className="flex items-center">
+              <FaPhoneAlt className="mr-2" /> +91 1234567890
+            </li>
+            <li className="flex items-center">
+              <FaEnvelope className="mr-2" /> idrisizufiya@gmail.com
+            </li>
+          </ul>
+
+          <div className="flex space-x-4 mt-4">
+            <a
+              href="https://github.com/your-github-username"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" hover:text-gray-500"
+            >
+              <FaGithub size={24} />
+            </a>
+            <a
+              href="https://your-portfolio-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" hover:text-gray-500"
+            >
+              <FaGlobe size={24} />
+            </a>
+            <a
+              href="https://twitter.com/your-twitter-handle"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" hover:text-gray-500"
+            >
+              <FaTwitter size={24} />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Section */}
+      <div className="mt-10 border-t border-gray-500 pt-6 text-center text-sm">
+        <p>
+          &copy;{" "}
+          <a
+            className="hover:text-primary font-semibold"
+            href="https://www.linkedin.com/in/zufiyaidrisi9797/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Zufiya Idrisi
+          </a>{" "}
+          | MediMeet | All Rights Reserved | {new Date().getFullYear()}
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
