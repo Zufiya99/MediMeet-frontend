@@ -3,60 +3,231 @@
     "name": "Dr. John Doe",
     "speciality": "General Physician",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "1"
+    "_id": "1",
+    "about": "An experienced general physician dedicated to providing comprehensive healthcare services.",
+    "address": "123 Main Street, Cityville",
+    "degree": "MBBS, MD (General Medicine)",
+    "experience": "15 years",
+    "fees": 500
   },
   {
     "name": "Dr. Sarah Smith",
     "speciality": "Gynecologist",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "2"
+    "_id": "2",
+    "about": "Specializes in women's health with over a decade of experience in gynecology.",
+    "address": "456 Elm Street, Townsville",
+    "degree": "MBBS, MD (Gynecology)",
+    "experience": "12 years",
+    "fees": 600
   },
   {
     "name": "Dr. Michael Brown",
     "speciality": "Dermatologist",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "3"
+    "_id": "3",
+    "about": "Expert in skin care and dermatological treatments.",
+    "address": "789 Oak Avenue, Metropolis",
+    "degree": "MBBS, MD (Dermatology)",
+    "experience": "10 years",
+    "fees": 550
   },
   {
     "name": "Dr. Emily Johnson",
     "speciality": "Pediatrician",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "4"
+    "_id": "4",
+    "about": "Dedicated pediatrician committed to child health and wellness.",
+    "address": "101 Pine Street, Lakeview",
+    "degree": "MBBS, MD (Pediatrics)",
+    "experience": "10 years",
+    "fees": 500
   },
   {
     "name": "Dr. William Davis",
     "speciality": "Neurologist",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "5"
+    "_id": "5",
+    "about": "Neurologist with extensive experience in treating neurological disorders.",
+    "address": "202 Maple Street, River City",
+    "degree": "MBBS, MD (Neurology)",
+    "experience": "14 years",
+    "fees": 650
   },
   {
     "name": "Dr. Olivia Martinez",
     "speciality": "Gastroenterologist",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "6"
+    "_id": "6",
+    "about": "Specialist in digestive system disorders with a patient-centered approach.",
+    "address": "303 Birch Avenue, Hilltown",
+    "degree": "MBBS, MD (Gastroenterology)",
+    "experience": "10 years",
+    "fees": 600
+  },
+  {
+    "name": "Dr. John Doe",
+    "speciality": "General Physician",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "7",
+    "about": "Committed to providing personalized healthcare to all patients.",
+    "address": "123 Main Street, Cityville",
+    "degree": "MBBS, MD (General Medicine)",
+    "experience": "13 years",
+    "fees": 500
+  },
+  {
+    "name": "Dr. Sarah Smith",
+    "speciality": "Gynecologist",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "8",
+    "about": "Experienced in obstetrics and gynecology, focusing on women's reproductive health.",
+    "address": "456 Elm Street, Townsville",
+    "degree": "MBBS, MD (Gynecology)",
+    "experience": "6 years",
+    "fees": 600
+  },
+  {
+    "name": "Dr. Michael Brown",
+    "speciality": "Dermatologist",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "9",
+    "about": "Provides advanced dermatological treatments for skin conditions.",
+    "address": "789 Oak Avenue, Metropolis",
+    "degree": "MBBS, MD (Dermatology)",
+    "experience": "8 years",
+    "fees": 550
+  },
+  {
+    "name": "Dr. Emily Johnson",
+    "speciality": "Pediatrician",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "10",
+    "about": "Passionate about child healthcare and development.",
+    "address": "101 Pine Street, Lakeview",
+    "degree": "MBBS, MD (Pediatrics)",
+    "experience": "11 years",
+    "fees": 500
+  },
+  {
+    "name": "Dr. William Davis",
+    "speciality": "Neurologist",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "11",
+    "about": "Specializes in diagnosing and treating nervous system disorders.",
+    "address": "202 Maple Street, River City",
+    "degree": "MBBS, MD (Neurology)",
+    "experience": "12 years",
+    "fees": 650
+  },
+  {
+    "name": "Dr. Olivia Martinez",
+    "speciality": "Gastroenterologist",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "12",
+    "about": "Experienced gastroenterologist focusing on digestive health.",
+    "address": "303 Birch Avenue, Hilltown",
+    "degree": "MBBS, MD (Gastroenterology)",
+    "experience": "7 years",
+    "fees": 600
   },
   {
     "name": "Dr. James Wilson",
     "speciality": "Gastroenterologist",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "7"
+    "_id": "13",
+    "about": "Expert in gastrointestinal disorders and endoscopic procedures.",
+    "address": "404 Cedar Road, Brookfield",
+    "degree": "MBBS, MD (Gastroenterology)",
+    "experience": "11 years",
+    "fees": 620
   },
   {
     "name": "Dr. Sophia Clark",
     "speciality": "Pediatrician",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "8"
+    "_id": "14",
+    "about": "Dedicated to providing compassionate care to children of all ages.",
+    "address": "505 Walnut Street, Pleasantville",
+    "degree": "MBBS, MD (Pediatrics)",
+    "experience": "7 years",
+    "fees": 480
   },
   {
     "name": "Dr. Daniel Lewis",
     "speciality": "Pediatrician",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "9"
+    "_id": "15",
+    "about": "Focuses on pediatric care with an emphasis on preventive medicine.",
+    "address": "606 Spruce Lane, Meadowbrook",
+    "degree": "MBBS, MD (Pediatrics)",
+    "experience": "9 years",
+    "fees": 500
   },
   {
     "name": "Dr. Emma Rodriguez",
     "speciality": "Gastroenterologist",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
-    "_id": "10"
+    "_id": "16",
+    "about": "Specializes in liver diseases and digestive system health.",
+    "address": "707 Cherry Street, Sunnyside",
+    "degree": "MBBS, MD (Gastroenterology)",
+    "experience": "13 years",
+    "fees": 630
+  },
+  {
+    "name": "Dr. John Doe",
+    "speciality": "General Physician",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "17",
+    "about": "Provides comprehensive general healthcare services.",
+    "address": "123 Main Street, Cityville",
+    "degree": "MBBS, MD (General Medicine)",
+    "experience": "10 years",
+    "fees": 500
+  },
+  {
+    "name": "Dr. Sarah Smith",
+    "speciality": "Gynecologist",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "18",
+    "about": "Expert in women's reproductive health and prenatal care.",
+    "address": "456 Elm Street, Townsville",
+    "degree": "MBBS, MD (Gynecology)",
+    "experience": "17 years",
+    "fees": 600
+  },
+  {
+    "name": "Dr. William Davis",
+    "speciality": "Neurologist",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "19",
+    "about": "Specializes in treating complex neurological conditions.",
+    "address": "202 Maple Street, River City",
+    "degree": "MBBS, MD (Neurology)",
+    "experience": "10 years",
+    "fees": 650
+  },
+  {
+    "name": "Dr. John Doe",
+    "speciality": "General Physician",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "20",
+    "about": "Dedicated to providing patient-centered general medical care.",
+    "address": "123 Main Street, Cityville",
+    "degree": "MBBS, MD (General Medicine)",
+    "experience": "9 years",
+    "fees": 500
+  },
+  {
+    "name": "Dr. Olivia Martinez",
+    "speciality": "General Physician",
+    "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
+    "_id": "21",
+    "about": "Offers comprehensive healthcare services with a focus on wellness.",
+    "address": "303 Birch Avenue, Hilltown",
+    "degree": "MBBS, MD (General Medicine)",
+    "experience": "7 years",
+    "fees": 500
   }
 ]

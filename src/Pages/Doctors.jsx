@@ -107,7 +107,7 @@ const Doctors = () => {
               <div
                 key={index}
                 className="border border-green-200 rounded-xl overflow-hidden cursor-pointer hover:-translate-y-[10px] transition-all duration-200"
-                onClick={() => navigate(`/doctors/${item._id}`)}
+                onClick={() => navigate(`/appointment/${item._id}`)}
               >
                 <img className="bg-green-200" src={item.imageUrl} alt="" />
                 <div className="p-4">
