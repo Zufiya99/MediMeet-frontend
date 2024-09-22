@@ -37,25 +37,25 @@
   },
   {
     "name": "Dr. James Wilson",
-    "speciality": "Cardiologist",
+    "speciality": "Gastroenterologist",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
     "_id": "7"
   },
   {
     "name": "Dr. Sophia Clark",
-    "speciality": "Ophthalmologist",
+    "speciality": "Pediatrician",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
     "_id": "8"
   },
   {
     "name": "Dr. Daniel Lewis",
-    "speciality": "Orthopedic Surgeon",
+    "speciality": "Pediatrician",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
     "_id": "9"
   },
   {
     "name": "Dr. Emma Rodriguez",
-    "speciality": "Endocrinologist",
+    "speciality": "Gastroenterologist",
     "imageUrl": "https://png.pngtree.com/png-clipart/20230918/ourmid/pngtree-photo-men-doctor-physician-chest-smiling-png-image_10132895.png",
     "_id": "10"
   }

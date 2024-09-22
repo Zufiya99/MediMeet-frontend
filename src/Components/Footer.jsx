@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" w-full py-10 px-5 md:px-20 lg:px-40">
+    <footer className=" w-full py-10 px-5 md:px-2 lg:px-40">
       <div className="flex flex-col md:flex-row justify-between">
         {/* Left Section */}
         <div className="mb-8 md:mb-0">
@@ -26,19 +26,19 @@ const Footer = () => {
 
         {/* Center Section */}
         <div className="mb-8 md:mb-0">
-          <p className="text-xl font-semibold mb-4">Company</p>
+          <p className="text-xl font-semibold mb-4">Services</p>
           <ul className="space-y-2">
             <li className="hover:text-gray-600 cursor-pointer transition duration-300">
-              Home
+              Book an Appointment
             </li>
             <li className="hover:text-gray-600 cursor-pointer transition duration-300">
-              About Us
+              Find a Doctor
             </li>
             <li className="hover:text-gray-600 cursor-pointer transition duration-300">
-              Contact Us
+              Telehealth Services
             </li>
             <li className="hover:text-gray-600 cursor-pointer transition duration-300">
-              Privacy Policy
+              Health Resources
             </li>
           </ul>
         </div>
@@ -57,7 +57,7 @@ const Footer = () => {
 
           <div className="flex space-x-4 mt-4">
             <a
-              href="https://github.com/your-github-username"
+              href="https://github.com/Zufiya99"
               target="_blank"
               rel="noopener noreferrer"
               className=" hover:text-gray-500"
@@ -65,7 +65,7 @@ const Footer = () => {
               <FaGithub size={24} />
             </a>
             <a
-              href="https://your-portfolio-link.com"
+              href="https://portfolio-99z.web.app/"
               target="_blank"
               rel="noopener noreferrer"
               className=" hover:text-gray-500"
@@ -73,7 +73,7 @@ const Footer = () => {
               <FaGlobe size={24} />
             </a>
             <a
-              href="https://twitter.com/your-twitter-handle"
+              href="https://x.com/Zufiya_Idrisi"
               target="_blank"
               rel="noopener noreferrer"
               className=" hover:text-gray-500"

@@ -1,7 +1,6 @@
 import { createContext } from "react";
 import doctorsDetails from "../assets/doctorsDetails.json";
 
-
 export const AppContext = createContext();
 
 const AppContextProvider = (props) => {
