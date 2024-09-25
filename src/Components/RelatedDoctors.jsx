@@ -1,17 +1,27 @@
-import React, { useContext } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useContext, useEffect, useState } from "react";
 import { AppContext } from "../Context/AppContext";
+import { useNavigate } from "react-router-dom";
 
-const TopDoctors = () => {
-  const navigate = useNavigate();
+const RelatedDoctors = ({ docId, speciality }) => {
   const { doctorsDetails } = useContext(AppContext);
+  const [relDocs, setRelDocs] = useState([]);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (doctorsDetails.length > 0 && speciality) {
+      const doctorsData = doctorsDetails.filter(
+        (doc) => doc.speciality === speciality && doc._id !== docId
+      );
+      setRelDocs(doctorsData);
+    }
+  }, [doctorsDetails, docId, speciality]);
   return (
     <>
       <div className="flex flex-col items-center gap-4 my-6 text-gray-900 md:mx-10">
-        <h1 className="text-3xl font-medium">Top Doctos</h1>
+        <h1 className="text-3xl font-medium">Related doctors</h1>
         <p className="sm:w-1/3 text-center text-sm">Lorem ipsum dolor sit.</p>
         <div className="w-full grid grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0">
-          {doctorsDetails.slice(0, 12).map((item, index) => (
+          {relDocs.slice(0, 5).map((item, index) => (
             <div
               key={index}
               className="border border-green-200 rounded-xl overflow-hidden cursor-pointer hover:-translate-y-[10px] transition-all duration-200"
@@ -42,4 +52,4 @@ const TopDoctors = () => {
   );
 };
 
-export default TopDoctors;
+export default RelatedDoctors;
