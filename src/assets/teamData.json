@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. John Doe",
+    "position": "Chief Medical Officer",
+    "description": "Leading our medical team, Dr. John ensures the highest quality of care for our patients.",
+    "image": "https://i.pravatar.cc/150?img=12"
+  },
+  {
+    "id": 2,
+    "name": "Zufiya Idrisi",
+    "position": "Lead Developer",
+    "description": "Zufiya leads the technical team, ensuring that our platform is efficient and scalable.",
+    "image": "https://i.pravatar.cc/150?img=32"
+  },
+  {
+    "id": 3,
+    "name": "Jane Smith",
+    "position": "Operations Manager",
+    "description": "Jane oversees daily operations and ensures the platform runs smoothly for all users.",
+    "image": "https://i.pravatar.cc/150?img=45"
+  },
+  {
+    "id": 4,
+    "name": "Mark Wilson",
+    "position": "Product Manager",
+    "description": "Mark drives product development, making sure our platform meets user needs.",
+    "image": "https://i.pravatar.cc/150?img=56"
+  },
+
+  {
+    "id": 5,
+    "name": "Dr. Alice Johnson",
+    "position": "Healthcare Specialist",
+    "description": "Dr. Alice provides medical expertise, ensuring patient care is top-notch.",
+    "image": "https://i.pravatar.cc/150?img=24"
+  }
+]
