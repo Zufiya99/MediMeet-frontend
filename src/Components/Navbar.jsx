@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className="flex items-center gap-1 cursor-pointer group relative">
               <img
                 className="w-10 rounded-full"
-                src="https://static.vecteezy.com/system/resources/thumbnails/005/544/718/small_2x/profile-icon-design-free-vector.jpg"
+                src="https://i.pravatar.cc/150?img=12"
                 alt="profile_pic"
               />
               <img
