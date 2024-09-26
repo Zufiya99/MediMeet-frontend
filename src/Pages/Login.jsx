@@ -26,8 +26,9 @@ const Login = () => {
               <input
                 className="border border-zinc-300 rounded w-full p-2 mt-1"
                 type="text"
-                onChange={(e) => setName(e.target.name)}
+                onChange={(e) => setName(e.target.value)}
                 value={name}
+                required
               />
             </div>
           )}
@@ -36,18 +37,20 @@ const Login = () => {
             <p>Enter your Email</p>
             <input
               className="border border-zinc-300 rounded w-full p-2 mt-1"
-              type="text"
-              onChange={(e) => setEmail(e.target.email)}
+              type="email"
+              onChange={(e) => setEmail(e.target.value)}
               value={email}
+              required
             />
           </div>
           <div className="w-full">
             <p>Enter your Password</p>
             <input
               className="border border-zinc-300 rounded w-full p-2 mt-1"
-              type="text"
-              onChange={(e) => setPassword(e.target.password)}
+              type="password"
+              onChange={(e) => setPassword(e.target.value)}
               value={password}
+              required
             />
           </div>
           <button className="bg-primary text-white w-full py-2 rounded-md text-base">
@@ -59,7 +62,9 @@ const Login = () => {
               <p>
                 Already have an account?{" "}
                 <span
-                  onClick={() => setState("Login")}
+                  onClick={() => {
+                    setState("Login");
+                  }}
                   className="text-primary underline cursor-pointer font-bold"
                 >
                   Login here

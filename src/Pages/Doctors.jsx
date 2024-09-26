@@ -5,6 +5,7 @@ import { AppContext } from "../Context/AppContext";
 const Doctors = () => {
   const { speciality } = useParams();
   const [filterDoc, setFilterDoc] = useState([]);
+  const [showFilters, setShowFilters] = useState(false);
   const navigate = useNavigate();
 
   const { doctorsDetails } = useContext(AppContext);
@@ -28,7 +29,20 @@ const Doctors = () => {
       <div className="">
         <p className="text-gray-600">Browse through special doctors</p>
         <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
-          <div className="flex flex-col gap-4 text-sm text-gray-600">
+          <button
+            className={`py-1 px-3 border rounded text-sm transition-all sm:hidden ${
+              showFilters ? "bg-primary" : ""
+            }`}
+            onClick={() => setShowFilters((prev) => !prev)}
+          >
+            Filters
+          </button>
+
+          <div
+            className={`flex-col gap-4 text-sm text-gray-600 ${
+              showFilters ? "flex" : "hidden sm:flex"
+            }`}
+          >
             <p
               onClick={() =>
                 speciality === "General Physician"
@@ -36,7 +50,9 @@ const Doctors = () => {
                   : navigate("/doctors/General Physician")
               }
               className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${
-                speciality === "General Physician" ? "bg-indigo-100 text-black" : ""
+                speciality === "General Physician"
+                  ? "bg-indigo-100 text-black"
+                  : ""
               }`}
             >
               General Physician
@@ -96,7 +112,9 @@ const Doctors = () => {
                   : navigate("/doctors/Gastroenterologist")
               }
               className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${
-                speciality === "Gastroenterologist" ? "bg-indigo-100 text-black" : ""
+                speciality === "Gastroenterologist"
+                  ? "bg-indigo-100 text-black"
+                  : ""
               }`}
             >
               Gastroenterologist

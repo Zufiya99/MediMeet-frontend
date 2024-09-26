@@ -12,10 +12,10 @@ const Header = () => {
       }}
     >
       {/* Left Side */}
-      <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
+      <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-20px]">
         <p className="text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight">
           {" "}
-          <b>Book appointment</b> <br /> with trusted doctors
+          <b>Connect with </b> <br /> top-rated doctors
         </p>
         <div className="flex flex-col md:flex-row items-center gap-3 text-white text-sm font-light">
           <img
@@ -24,9 +24,9 @@ const Header = () => {
             className="w-12 rounded-full "
           />
           <p>
-            Simply browse through our list of trusted doctors,{" "}
-            <br className="hidden sm:block" /> schedule your appointment
-            hassle-free
+            Explore our comprehensive directory of certified specialists,{" "}
+            <br className="hidden sm:block" /> and easily secure your
+            consultation with a few clicks.
           </p>
         </div>
         <a
@@ -42,11 +42,16 @@ const Header = () => {
         </a>
       </div>
       {/* Right Side */}
-      <div className="md:w-1/2 relative sm:mb-200">
+      <div className="md:w-1/2 relative sm:mb-200 flex justify-center">
         <img
-          className="w-full md:absolute h-auto rounded-lg"
+          className="w-full max-w-[300px] md:max-w-[400px] lg:max-w-[500px] h-auto object-contain rounded-lg"
           src="./src/assets/Doc-group.png"
-          alt=""
+          alt="Group of Doctors"
+          style={{
+            position: "relative",
+            bottom: "0",
+            zIndex: "1",
+          }}
         />
       </div>
     </div>

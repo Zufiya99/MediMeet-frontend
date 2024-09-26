@@ -77,6 +77,50 @@ const Navbar = () => {
               Create account
             </button>
           )}
+          <img
+            onClick={() => setShowMenu(true)}
+            className="w-6 md:hidden"
+            src="https://cdn-icons-png.freepik.com/512/5368/5368475.png"
+            alt="menu icon"
+          />
+          {/* Mobile Menu */}
+          <div
+            className={`${
+              showMenu
+                ? "fixed top-0 right-0 w-full h-full bg-white z-20"
+                : "hidden"
+            } md:hidden`}
+          >
+            <div className="flex items-center justify-between px-5 py-6 border-b">
+              <img
+                className="w-10"
+                src="./src/assets/MediMeet_logo.png"
+                alt="Logo"
+              />
+              <img
+                className="w-6 cursor-pointer"
+                onClick={() => setShowMenu(false)}
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5lO7KevUIVjzeC-jq-DJGfKiv6eWDrG8a2g&s"
+                alt="close icon"
+              />
+            </div>
+            <ul className="flex flex-col items-center gap-5 font-medium mt-5">
+              <NavLink onClick={() => setShowMenu(false)} to="/">
+                <p className="px-4 py-2 rounded hover:bg-gray-200">Home</p>
+              </NavLink>
+              <NavLink onClick={() => setShowMenu(false)} to="/doctors">
+                <p className="px-4 py-2 rounded hover:bg-gray-200">
+                  All doctors
+                </p>
+              </NavLink>
+              <NavLink onClick={() => setShowMenu(false)} to="/about">
+                <p className="px-4 py-2 rounded hover:bg-gray-200">About</p>
+              </NavLink>
+              <NavLink onClick={() => setShowMenu(false)} to="/contact">
+                <p className="px-4 py-2 rounded hover:bg-gray-200">Contact</p>
+              </NavLink>
+            </ul>
+          </div>
         </div>
       </div>
     </>

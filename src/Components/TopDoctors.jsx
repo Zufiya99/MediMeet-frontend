@@ -8,8 +8,8 @@ const TopDoctors = () => {
   return (
     <>
       <div className="flex flex-col items-center gap-4 my-6 text-gray-900 md:mx-10">
-        <h1 className="text-3xl font-medium">Top Doctos</h1>
-        <p className="sm:w-1/3 text-center text-sm">Lorem ipsum dolor sit.</p>
+        <h1 className="text-3xl font-medium">Meet Our Top Doctors</h1>
+        <p className="sm:w-1/3 text-center text-sm">Discover exceptional healthcare with our top-rated doctors, committed to providing you with the best treatment options.</p>
         <div className="w-full grid grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0">
           {doctorsDetails.slice(0, 12).map((item, index) => (
             <div
