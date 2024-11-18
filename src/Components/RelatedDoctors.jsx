@@ -27,7 +27,7 @@ const RelatedDoctors = ({ docId, speciality }) => {
               className="border border-green-200 rounded-xl overflow-hidden cursor-pointer hover:-translate-y-[10px] transition-all duration-200"
               onClick={() => {navigate(`/appointment/${item._id}`), scrollTo(0, 0)}}
             >
-              <img className="bg-green-200" src={item.imageUrl} alt="" />
+              <img className="bg-green-200" src={`/Images/${item.imageUrl}`} alt="" />
               <div className="p-4">
                 <div className="flex items-center gap-2 text-sm text-center text-green-500">
                   <p className="w-2 h-2 bg-green-500 rounded-full"></p>

@@ -25,7 +25,7 @@ const Banner = () => {
       {/* ----- Right Section ----- */}
       <div className="mt-10 md:mt-0 md:w-1/2 lg:w-[370px] relative">
         <img
-          src="./src/assets/BannerPhoto.png"
+          src="/Images/BannerPhoto.png"
           alt="banner girl image"
           className="w-full object-contain"
         />

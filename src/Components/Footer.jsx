@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Left Section */}
         <div className="mb-8 md:mb-0">
           <img
-            src="./src/assets/MediMeet_logo.png"
+            src="/Images/MediMeet_logo.png"
             alt="MediMeet Logo"
             className="w-16 mb-4"
           />

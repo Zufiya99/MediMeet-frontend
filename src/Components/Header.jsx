@@ -45,7 +45,7 @@ const Header = () => {
       <div className="md:w-1/2 relative sm:mb-200 flex justify-center">
         <img
           className="w-full max-w-[300px] md:max-w-[400px] lg:max-w-[500px] h-auto object-contain rounded-lg"
-          src="./src/assets/Doc-group.png"
+          src="/Images/Doc-group.png"
           alt="Group of Doctors"
           style={{
             position: "relative",

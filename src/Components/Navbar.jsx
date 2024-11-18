@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between text-sm py-2 mb-5 border-b border-b-gray-400">
         <img
           className="w-10 cursor-pointer"
-          src="./src/assets/MediMeet_logo.png"
+          src="/Images/MediMeet_logo.png"
           alt="MediMeet logo"
           onClick={() => navigate("/")}
         />

@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import doctorsDetails from "../assets/doctorsDetails.json";
+import doctorsDetails from "../Components/doctorsDetails.json";
 
 export const AppContext = createContext();
 

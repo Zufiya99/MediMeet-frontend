@@ -1,5 +1,5 @@
 import React from "react";
-import teamData from "../assets/teamData.json";
+import teamData from "../Components/teamData.json";
 
 const About = () => {
   return (
